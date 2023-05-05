@@ -16,8 +16,8 @@
             <h2 class="logo">Parking<span>Kothay?</span></h2>     
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="find-parking.html">Find Parking</a></li>
-                <li><a href="place_parking.html">List Your Parking</a></li>
+                <li><a href="find-parking.php">Find Parking</a></li>
+                <li><a href="place_parking.php">List Your Parking</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
                 <li><a href="login.php">Log In</a></li>
             </ul>      
@@ -40,6 +40,8 @@
                          <input type="text" placeholder="User Name">
                          <input type="password" name="" id="" placeholder="User Password">
                           <button type="submit" class="btn">Log In</button>
+                          <h3>OR</h3>
+                          <button type="submit" class="btn"><a href="registration.php">Register</a></button>
                       </form>
                 </div>
             </div>
